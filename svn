@@ -1,0 +1,75 @@
+BJGLPR-DMX0022:~ kawhi.luo$ cd Development/
+BJGLPR-DMX0022:Development kawhi.luo$ ld
+sld: warning: -arch not specified
+ld: warning: -macosx_version_min not specified, assuming 10.9
+ld: no object files specified for inferred architecture x86_64
+BJGLPR-DMX0022:Development kawhi.luo$ ls
+applecom
+BJGLPR-DMX0022:Development kawhi.luo$ cd applecom/gc/
+BJGLPR-DMX0022:gc kawhi.luo$ ls
+BJGLPR-DMX0022:gc kawhi.luo$ ls
+BJGLPR-DMX0022:gc kawhi.luo$ pwd
+/Users/kawhi.luo/Development/applecom/gc
+BJGLPR-DMX0022:gc kawhi.luo$ svn up branches
+Updating 'branches':
+^Z
+[1]+  Stopped                 svn up branches
+BJGLPR-DMX0022:gc kawhi.luo$ sv ncleanup
+-bash: sv: command not found
+BJGLPR-DMX0022:gc kawhi.luo$ svn cleanup
+BJGLPR-DMX0022:gc kawhi.luo$ ls
+BJGLPR-DMX0022:gc kawhi.luo$ svn up branches/ --set-depth empty
+Updating 'branches':
+A    branches
+Updated to revision 1340556.
+BJGLPR-DMX0022:gc kawhi.luo$ ls
+branches
+BJGLPR-DMX0022:gc kawhi.luo$ cd branches/
+BJGLPR-DMX0022:branches kawhi.luo$ svn up webedit/ --set-depth empty
+Updating 'webedit':
+A    webedit
+Updated to revision 1340556.
+BJGLPR-DMX0022:branches kawhi.luo$ ls
+webedit
+BJGLPR-DMX0022:branches kawhi.luo$ cd webedit/
+BJGLPR-DMX0022:webedit kawhi.luo$ ls
+
+
+BJGLPR-DMX0022:webedit kawhi.luo$ svn up ios/ --set-depth empty
+Updating 'ios':
+At revision 1340556.
+
+
+
+
+BJGLPR-DMX0022:webedit kawhi.luo$ svn up cn/ --set-depth empty
+Updating 'cn':
+A    cn
+Updated to revision 1340556.
+BJGLPR-DMX0022:webedit kawhi.luo$ cd cn/
+
+
+
+BJGLPR-DMX0022:cn kawhi.luo$ svn up ios/ --set-depth empty
+Updating 'ios':
+A    ios
+Updated to revision 1340556.
+BJGLPR-DMX0022:cn kawhi.luo$ cd ios                                      
+BJGLPR-DMX0022:ios kawhi.luo$ ls
+BJGLPR-DMX0022:ios kawhi.luo$ svn up featrue-availability
+Updating 'featrue-availability':
+At revision 1340556.
+BJGLPR-DMX0022:ios kawhi.luo$ svn up feature-availability
+Updating 'feature-availability':
+A    feature-availability
+A    feature-availability/includes
+A    feature-availability/includes/localnav.inc
+A    feature-availability/index.html
+Updated to revision 1340556.
+BJGLPR-DMX0022:ios kawhi.luo$ cd webedit
+-bash: cd: webedit: No such file or directory
+BJGLPR-DMX0022:ios kawhi.luo$ cd
+BJGLPR-DMX0022:~ kawhi.luo$ cd tw
+-bash: cd: tw: No such file or directory
+BJGLPR-DMX0022:~ kawhi.luo$ cd Development/
+BJGLPR-DMX0022:Development kawhi.luo$ 
