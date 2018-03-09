@@ -28,6 +28,8 @@ Updated to revision 1340556.
 
 //vim 打开 ~根目录
 BJGLPR-DMX0022:trunk kawhi.luo$ vim ~/.bashrc
+//键盘操作 o ESC
+//alias sblm=\''/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'\'
 //source编译
 BJGLPR-DMX0022:trunk kawhi.luo$ source ~/.bashrc
 //sublime 打开
