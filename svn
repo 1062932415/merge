@@ -42,3 +42,34 @@ BJGLPR-DMX0022:trunk kawhi.luo$ source ~/.bashrc
 //路径写在后面
 sus cn
 BJGLPR-DMX0022:trunk kawhi.luo$ sus cn
+
+
+
+git check -b feature_luozhi
+本地创建feature_luozhi分支
+
+git branch 列出本地分支
+-r 远程分支
+-a 所有分支
+-d [分支名] 删除分支
+
+git branch feature_luozhi
+新建一个分支，但不切换
+
+git checkout feature_luozhi
+新建feature_luozhi分支并且切换到该分支
+
+git push origin [本地][远程]
+连接远程分支
+git push origin --delete []
+删除远程分支
+
+
+git pull origin develop 更新develop分支代码到本地
+git add . 追踪改动的文件
+git commit -m '注释'
+git push origin featur_luozhi 提交分支代码
+git pull origin develop 下载代码
+git merge [branch] 合并指定分支到当前分支
+页面merge请求
+
